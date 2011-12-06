@@ -1,0 +1,16 @@
+import(RAutoGenRunTime)
+useDynLib(RTimingTools)
+#exportPattern(".*")
+
+exportClasses("timeval", "timevalPtr", "rusage", "rusagePtr")
+export(RUSAGE_SELF, RUSAGE_CHILDREN)
+export(rusage, getrusage)
+
+#exportPattern("^__*")
+exportMethods("$", "$<-")
+exportMethods("coerce")
+exportMethods("Arith")
+
+export(cpuInfo.Linux)
+
+

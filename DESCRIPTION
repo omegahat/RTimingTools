@@ -1,0 +1,11 @@
+Package: RTimingTools
+Title: Functions and data structures for collecting performance evaluation
+Description:  This package is a start to provide some tools to help with the
+  collection of code evaluation performance data such as timings and memory
+  usage.
+Version: 0.1-0
+License: BSD
+Depends: RAutoGenRunTime
+Author: Duncan Temple Lang
+Maintainer: Duncan Temple Lang <duncan@wald.ucdavis.edu>
+LazyLoad: yes
